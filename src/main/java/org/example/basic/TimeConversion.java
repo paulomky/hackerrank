@@ -46,12 +46,12 @@ public class TimeConversion {
             }
         }
 
-        String hour_str = String.valueOf(hour);
+        String hourStr = String.valueOf(hour);
 
         if(hour < 10){
-            hour_str = "0" + hour;
+            hourStr = "0" + hour;
         }
 
-        return hour_str + ":" + timeSplitted[1] + ":" + timeSplitted[2];
+        return hourStr + ":" + timeSplitted[1] + ":" + timeSplitted[2];
     }
 }
